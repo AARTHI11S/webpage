@@ -1,0 +1,48 @@
+#body {
+  background-color: rgb(157, 136, 206);
+}
+
+#container1 {
+  width: 1300px;
+  height: 500vh;
+  background: linear-gradient(45deg, #36d7fb, #f48e21, #f5f242, #ee63e5);
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+#main,
+#main2,
+#main3,
+#main4 {
+  display: flex;
+  justify-content: space-around;
+}
+
+#navbar {
+  float: right;
+  margin-top: 30px;
+}
+
+#navbar ul li {
+  display: inline;
+  margin-right: 50px;
+}
+
+#navbar ul li a {
+  color: black;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: bold;
+}
+
+a:link {
+  color: rgb(51, 0, 255);
+}
+a:visited {
+  color: red;
+}
+a:hover {
+  color: rgb(255, 0, 234);
+}
